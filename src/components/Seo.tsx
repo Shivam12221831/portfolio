@@ -8,10 +8,10 @@ interface SeoProps {
 }
 
 const Seo = ({
-  title = "Aathif Zahir | Software Engineering Student",
-  description = "Portfolio website of Aathif Zahir, a software engineering student specializing in full-stack development.",
-  keywords = "Aathif Zahir, software engineering, full-stack developer, React, portfolio, projects",
-  ogImage = "/og-image.jpg",
+  title = "Shivam Singh | Software Engineering Student",
+  description = "Portfolio website of Shivam Singh, a software engineering student specializing in full-stack development.",
+  keywords = "Shivam Singh, software engineering, full-stack developer, React, portfolio, projects",
+  ogImage = "/logo2.png",
 }: SeoProps) => {
   return (
     <Helmet>

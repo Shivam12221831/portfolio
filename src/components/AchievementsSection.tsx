@@ -65,9 +65,9 @@ const AchievementsSection = () => {
           viewport={{ once: true, amount: 0.2 }}
           transition={{ duration: 0.5 }}
         >
-          <h2 className="section-heading">Achievements</h2>
-          <p className="text-muted-foreground max-w-2xl mb-12">
-            A collection of my professional accomplishments, awards, and
+          <h2 className="section-heading">Certificates</h2>
+          <p className="text-muted-foreground max-w-3xl mb-6">
+            A collection of my professional accomplishments, and
             certifications earned throughout my journey.
           </p>
         </motion.div>
@@ -146,7 +146,7 @@ const AchievementsSection = () => {
               <p className="text-base font-normal text-muted-foreground mb-4">
                 {achievement.description}
               </p>
-              <span
+              {/* <span
                 className={`text-xs px-2 py-1 rounded-full ${
                   achievement.type === "competition"
                     ? "bg-yellow-100/80 text-yellow-800 dark:bg-yellow-950 dark:text-yellow-300"
@@ -157,6 +157,18 @@ const AchievementsSection = () => {
               >
                 {achievement.type.charAt(0).toUpperCase() +
                   achievement.type.slice(1)}
+              </span> */}
+              <span
+                className={`text-xs px-2 py-1 rounded-full cursor-pointer mt-auto ${
+                  achievement.type === "competition"
+                    ? "bg-yellow-100/80 text-yellow-800 dark:bg-yellow-950 dark:text-yellow-300"
+                    : achievement.type === "academic"
+                    ? "bg-blue-100/80 text-blue-800 dark:bg-blue-950 dark:text-blue-300"
+                    : "bg-green-100/80 text-green-800 dark:bg-green-950 dark:text-green-300"
+                }`}
+                onClick={() => window.open(achievement.certificateLink, "_blank")}
+              >
+                {achievement.type.charAt(0).toUpperCase() + achievement.type.slice(1)}
               </span>
             </motion.div>
           ))}

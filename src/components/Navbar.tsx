@@ -38,7 +38,7 @@ const Navbar = () => {
     { name: "About", href: "#about" },
     { name: "Projects", href: "#projects" },
     { name: "Skills", href: "#skills" },
-    { name: "Achievements", href: "#achievements" },
+    { name: "Certificates", href: "#achievements" },
     { name: "Contact", href: "#contact" },
   ];
 
@@ -55,7 +55,7 @@ const Navbar = () => {
         <div className="flex items-center justify-between h-14">
           <div className="flex items-center">
             <a href="/">
-              <span className="text-xl font-bold text-primary">AZ.</span>
+              <span className="text-xl font-bold text-primary">Shivam Singh</span>
             </a>
           </div>
 

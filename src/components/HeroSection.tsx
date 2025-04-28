@@ -42,7 +42,7 @@ const HeroSection = () => {
       <div className="section-container flex flex-col lg:flex-row items-center justify-between gap-10">
         <div className="flex flex-col max-w-xl space-y-6 text-center lg:text-left">
           <motion.span
-            className="text-sm md:text-base font-medium text-primary opacity-90"
+            className="text-lg md:text-xl font-bold text-primary opacity-90"
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.2 }}
@@ -56,14 +56,14 @@ const HeroSection = () => {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.4 }}
           >
-            Aathif{" "}
+            Shivam{" "}
             <motion.span
               className="highlight-text"
               initial={{ backgroundSize: "0% 3px" }}
               animate={{ backgroundSize: "100% 3px" }}
               transition={{ duration: 1, delay: 1.2 }}
             >
-              Zahir
+              Singh
             </motion.span>
           </motion.h1>
 
@@ -82,8 +82,7 @@ const HeroSection = () => {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.8 }}
           >
-            Building elegant solutions to complex problems with modern
-            technologies.
+            Passionate about crafting elegant, efficient, and impactful solutions to complex problems by leveraging modern technologies and innovative approaches.
           </motion.p>
 
           <motion.div
@@ -212,7 +211,7 @@ const HeroSection = () => {
                 >
                   <span className="text-purple-600">name</span>
                   <span className="text-gray-500">:</span>{" "}
-                  <span className="text-green-600">'Aathif Zahir'</span>
+                  <span className="text-green-600">'Shivam Singh'</span>
                   <span className="text-gray-500">,</span>
                 </motion.div>
 
@@ -225,11 +224,11 @@ const HeroSection = () => {
                   <span className="text-purple-600">skills</span>
                   <span className="text-gray-500">:</span>{" "}
                   <span className="text-orange-500">[</span>
-                  <span className="text-green-600">'React'</span>
+                  <span className="text-green-600">'C++'</span>
                   <span className="text-gray-500">,</span>{" "}
                   <span className="text-green-600">'Node.js'</span>
                   <span className="text-gray-500">,</span>{" "}
-                  <span className="text-green-600">'Python'</span>
+                  <span className="text-green-600">'React'</span>
                   <span className="text-orange-500">]</span>
                   <span className="text-gray-500">,</span>
                 </motion.div>
@@ -245,7 +244,7 @@ const HeroSection = () => {
                   <span className="text-orange-500">[</span>
                   <span className="text-green-600">'Full-Stack'</span>
                   <span className="text-gray-500">,</span>{" "}
-                  <span className="text-green-600">'UI/UX'</span>
+                  <span className="text-green-600">'Cloud Computing'</span>
                   <span className="text-orange-500">]</span>
                   <span className="text-gray-500">,</span>
                 </motion.div>

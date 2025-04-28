@@ -28,7 +28,7 @@ const ContactSection = () => {
     setIsSubmitting(true);
 
     const formPayload = {
-      access_key: "6c14b370-ac51-45bc-b933-1a3ed381b3d1",
+      access_key: "1e4243de-14c8-4566-be77-5e1b89a835a5",
       ...formData,
     };
 
@@ -72,7 +72,7 @@ const ContactSection = () => {
     <section id="contact" className="py-14 bg-background">
       <div className="section-container">
         <h2 className="section-heading">Get In Touch</h2>
-        <p className="text-muted-foreground max-w-2xl mb-12">
+        <p className="text-muted-foreground max-w-3xl mt-2 mb-10">
           Have a question or want to work together? Feel free to drop me a
           message. I'd love to hear from you!
         </p>
@@ -84,7 +84,7 @@ const ContactSection = () => {
                 Contact Information
               </h3>
               <p className="text-muted-foreground">
-                Fill up the form and I'll get back to you as soon as possible.
+                Feel free to reach out through the form and I'll get back to you promptly.
               </p>
             </div>
 
@@ -121,7 +121,7 @@ const ContactSection = () => {
             </div>
 
             <div>
-              <h3 className="text-lg font-semibold mb-3 text-foreground">
+              <h3 className="text-lg font-semibold mb-5 text-foreground">
                 Connect with me
               </h3>
               <div className="flex space-x-4">
@@ -164,7 +164,7 @@ const ContactSection = () => {
               <input
                 type="hidden"
                 name="access_key"
-                value="6c14b370-ac51-45bc-b933-1a3ed381b3d1"
+                value="1e4243de-14c8-4566-be77-5e1b89a835a5"
               />
               <input
                 type="hidden"
@@ -183,7 +183,7 @@ const ContactSection = () => {
                   <Input
                     id="name"
                     name="name"
-                    placeholder="John Doe"
+                    placeholder="Shivam Singh"
                     value={formData.name}
                     onChange={handleChange}
                     required
@@ -200,7 +200,7 @@ const ContactSection = () => {
                     id="email"
                     name="email"
                     type="email"
-                    placeholder="john@example.com"
+                    placeholder="shivam954882@example.com"
                     value={formData.email}
                     onChange={handleChange}
                     required
@@ -236,7 +236,7 @@ const ContactSection = () => {
                   id="message"
                   name="message"
                   placeholder="Your message here..."
-                  rows={5}
+                  rows={3}
                   value={formData.message}
                   onChange={handleChange}
                   required

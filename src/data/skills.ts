@@ -12,31 +12,31 @@ export const skillCategories: SkillCategory[] = [
   {
     name: "Programming Languages",
     icon: Terminal,
-    skills: ["JavaScript", "Java", "Python", "TypeScript", "HTML/CSS"],
+    skills: ["JavaScript", "C++", "Python", "TypeScript", "HTML/CSS"],
   },
   {
     name: "Frontend Development",
     icon: Layout,
-    skills: ["React", "React Native", "Next.js", "Tailwind CSS"],
+    skills: ["React", "Bootstrap", "Tailwind CSS"],
   },
   {
     name: "Backend Development",
     icon: Code,
-    skills: ["Node.js", "Express.js", "Spring Boot", "REST APIs"],
+    skills: ["Node.js", "Express.js", "EJS", "Passport.js", "REST APIs"],
   },
   {
     name: "Databases",
     icon: Database,
-    skills: ["MongoDB", "MySQL", "Firebase", "PostgreSQL"],
+    skills: ["MongoDB", "MySQL", "PostgreSQL"],
   },
   {
     name: "Tools & Technologies",
     icon: Cpu,
-    skills: ["Git", "Agile/Scrum"],
+    skills: ["Git", "GitHub", "Cloudinary", "Mapbox"],
   },
   {
     name: "Design",
     icon: Palette,
-    skills: ["Figma", "Adobe AI", "UI/UX Design", "Wireframing", "Prototyping"],
+    skills: ["Figma", "Adobe AI", "UI/UX Design"],
   },
 ];

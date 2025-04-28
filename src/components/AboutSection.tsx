@@ -74,10 +74,7 @@ const AboutSection = () => {
                 <FileText className="w-5 h-5 text-primary" /> Bio
               </h3>
               <p className="text-muted-foreground">
-                Software engineering student with a passion for creating
-                innovative solutions. Specializing in full-stack development, I
-                combine technical expertise with creative problem-solving to
-                build user-centric applications.
+              I believe in the power of well-crafted software to solve real-world problems and make everyday life a little easier. With a background in full-stack development, I focus on writing clean, maintainable code and building responsive, accessible interfaces. I value simplicity, structure, and good design, and I’m always eager to take on new challenges that push me to grow as a developer.
               </p>
             </motion.div>
 
@@ -90,25 +87,28 @@ const AboutSection = () => {
                 }}
               >
                 <Card className="h-full border-primary/10 bg-card/50 backdrop-blur-sm">
-                  <CardContent className="pt-6">
-                    <h3 className="text-lg font-semibold mb-3 flex items-center gap-2">
-                      <GraduationCap className="w-5 h-5 text-primary" />{" "}
-                      Education
-                    </h3>
-                    <div className="space-y-2">
-                      <p className="font-medium">BSc in Software Engineering</p>
-                      <p className="text-sm text-muted-foreground">
-                        SLIIT (Sri Lanka Institute of Information Technology)
-                      </p>
-                      <p className="text-sm text-muted-foreground">
-                        2022 - Present
-                      </p>
-                      <p className="text-sm text-muted-foreground">
-                        Dean's List (2023)
-                      </p>
-                    </div>
-                  </CardContent>
-                </Card>
+                <CardContent className="pt-6">
+                  <h3 className="text-lg font-semibold mb-3 flex items-center gap-2">
+                    <GraduationCap className="w-5 h-5 text-primary" />{" "}
+                    Education
+                  </h3>
+                  <div className="space-y-0 mb-4">
+                    <p className="font-medium">Lovely Professional University</p>
+                    <p className="text-sm text-muted-foreground">2022 - Present</p>
+                    <p className="text-sm text-muted-foreground">Computer Science and Engineering, CGPA - 8.24</p>
+                  </div>
+                  <div className="space-y-0 mb-4">
+                    <p className="font-medium">City Convent Sr. Sec. School </p>
+                    <p className="text-sm text-muted-foreground">2019 - 2021</p>
+                    <p className="text-sm text-muted-foreground">Intermediate, Percentage: 93%</p>
+                  </div>
+                  <div className="space-y-0">
+                    <p className="font-medium">City Convent Sr. Sec. School </p>
+                    <p className="text-sm text-muted-foreground">2017 - 2019</p>
+                    <p className="text-sm text-muted-foreground">Matriculation, Percentage: 94%</p>
+                  </div>
+                </CardContent>
+              </Card>
               </motion.div>
 
               <motion.div
@@ -125,23 +125,16 @@ const AboutSection = () => {
                     </h3>
                     <div className="space-y-4">
                       <div>
-                        <p className="font-medium">
-                          Full Stack Developer Intern
-                        </p>
                         <p className="text-sm text-muted-foreground">
-                          Twist Digital
-                        </p>
-                        <p className="text-sm text-muted-foreground">
-                          Since March 2025
+                          Built several full-stack projects including an UrbanNom (a travel booking app), BlogSphere (a blogging platform), and Online Library Management System, focusing on scalable design, user authentication, and seamless user experience.
                         </p>
                       </div>
+                      <h3 className="text-lg font-semibold mb-3 flex items-center gap-2">
+                        <Award className="w-5 h-5 text-primary" /> Achievements
+                      </h3>
                       <div>
-                        <p className="font-medium">Graphic Designer</p>
                         <p className="text-sm text-muted-foreground">
-                          SLIIT Media Unit
-                        </p>
-                        <p className="text-sm text-muted-foreground">
-                          Freelance
+                          Solved over 200 problems on coding platforms, strengthening problem-solving skills, and earned certifications in FullStack and Cloud Computing.
                         </p>
                       </div>
                     </div>
@@ -153,7 +146,7 @@ const AboutSection = () => {
 
           {/* Profile Column */}
           <motion.div
-            className="lg:col-span-4 flex flex-col items-center lg:items-start gap-6"
+            className="lg:col-span-4 flex flex-col items-center lg:items-start justify-center gap-6"
             initial="hidden"
             whileInView="visible"
             viewport={{ once: true, amount: 0.2 }}
@@ -166,22 +159,22 @@ const AboutSection = () => {
             >
               <Avatar className="w-40 h-40 border-4 border-primary/20">
                 <AvatarImage
-                  src="/imgs/me.png"
-                  alt="Aathif Zahir"
+                  src="/imgs/me.jpg"
+                  alt="Shivam Singh"
                   loading="lazy"
                 />
-                <AvatarFallback>AZ</AvatarFallback>
+                <AvatarFallback>SS</AvatarFallback>
               </Avatar>
-              <div className="absolute -bottom-2 -right-2 bg-primary text-primary-foreground px-3 py-1 rounded-full text-sm font-medium">
+              {/* <div className="absolute -bottom-2 -right-2 bg-primary text-primary-foreground px-3 py-1 rounded-full text-sm font-medium">
                 3.41 GPA
-              </div>
+              </div> */}
             </motion.div>
 
             <motion.div
               variants={itemVariants}
               className="text-center lg:text-left"
             >
-              <h3 className="text-2xl font-bold">Aathif Zahir</h3>
+              <h3 className="text-2xl font-bold">Shivam Singh</h3>
               <p className="text-muted-foreground">
                 Software Engineering Student
               </p>
@@ -197,9 +190,9 @@ const AboutSection = () => {
               <Badge variant="outline" className="bg-primary/10">
                 Node
               </Badge>
-              <Badge variant="outline" className="bg-primary/10">
+              {/* <Badge variant="outline" className="bg-primary/10">
                 UI/UX
-              </Badge>
+              </Badge> */}
               <Badge variant="outline" className="bg-primary/10">
                 Full Stack
               </Badge>
